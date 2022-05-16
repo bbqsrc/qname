@@ -1,0 +1,12 @@
+[package]
+name = "qname-impl"
+version = "0.1.0"
+description = "Type for qualified names in XML - implementation"
+repository = "https://github.com/bbqsrc/qname"
+license = "Apache-2.0 OR MIT"
+edition = "2021"
+
+[dependencies]
+syn = { version = "1", features = ["full", "extra-traits"] }
+quote = "1"
+proc-macro2 = "1"
